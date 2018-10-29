@@ -20,11 +20,11 @@ grad = zeros(size(theta));
 
 hypothesis = sigmoid(X * theta);
 
-regulationTermCost = (lambda / ( 2 * m)) * sum((theta(2:length(theta)).^2));
-J = (-( 1 / m) * sum(y .* log(hypothesis) + (1 - y) .* log(1 - hypothesis))) + regulationTermCost;
-
 thetaWithZero = theta;
 thetaWithZero(1) = 0;
+
+regulationTermCost = (lambda / ( 2 * m)) * sum(thetaWithZero.^2);
+J = (-( 1 / m) * sum(y .* log(hypothesis) + (1 - y) .* log(1 - hypothesis))) + regulationTermCost;
 
 regulationTermGradient = (lambda / m) * thetaWithZero;
 grad = (1 / m) * sum((hypothesis - y) .* X) + regulationTermGradient';
