@@ -1,5 +1,5 @@
 # Machine Learning Course
-My solutions to assignments from [course](https://www.coursera.org/learn/machine-learning/l) thought by Andrew Ng. 
+My solutions to assignments from [course](https://www.coursera.org/learn/machine-learning) thought by Andrew Ng. 
 
 |   | Conent of repo |
 | - | ------------ |
