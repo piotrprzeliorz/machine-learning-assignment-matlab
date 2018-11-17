@@ -5,4 +5,6 @@ My solutions to assignments from [course](https://www.coursera.org/learn/machine
 | - | ------------ |
 | ✅ | **Linear regression**
 | ✅ | **Logistic regression**
+| ✅ | **Multi-class Classification and Neural Networks**
+
 
