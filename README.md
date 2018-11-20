@@ -3,8 +3,8 @@ My solutions to assignments from [course](https://www.coursera.org/learn/machine
 
 |   | Conent of repo |
 | - | ------------ |
-| ✅ | **Linear regression**
-| ✅ | **Logistic regression**
-| ✅ | **Multi-class Classification and Neural Networks**
+|  **ex1** | **Linear regression** ✅
+|  **ex2** | **Logistic regression**✅
+|  **ex3** |**Multi-class Classification and Neural Networks**✅
 
 
